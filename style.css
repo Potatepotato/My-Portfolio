@@ -1,0 +1,187 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Lora:wght@400;700&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Lora', serif;
+    background-color: #E8F6F3;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Responsive Container */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #2C3E50;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #34495E;
+    letter-spacing: 1.2px;
+    margin-top: 30px;
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #555;
+    max-width: 800px;
+    margin: 10px auto;
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Styles */
+img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Link Styles */
+a {
+    display: inline-block;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #3498DB;
+    margin-top: 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+    color: #1D6FA5;
+    text-decoration: underline;
+    transform: translateY(-2px);
+}
+
+/* Social Media Icons */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    display: inline;
+    margin: 0 10px;
+}
+
+li a {
+    font-size: 1.5rem;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+li a:hover {
+    color: #3498DB;
+}
+
+/* Button Styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2C3E50;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+    background-color: #1A242F;
+    transform: translateY(-2px);
+}
+
+/* ========================= */
+/* Responsive Design */
+/* ========================= */
+
+/* For Small Devices (Mobile) */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    p {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .button {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+}
+
+/* For Tablets (600px - 1024px) */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    h1 {
+        font-size: 2.4rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 1.05rem;
+        padding: 12px;
+    }
+
+    img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .button {
+        padding: 9px 18px;
+    }
+}
+
+/* For Laptops and Large Screens (1025px and above) */
+@media screen and (min-width: 1025px) {
+    .container {
+        width: 80%;
+        max-width: 1100px;
+    }
+}
